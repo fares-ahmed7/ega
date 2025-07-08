@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin:0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow:hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+.img-box img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu {
+background-color:#8B5A2B;
+width: 60px;
+height: 100vh;
+padding: 20px;
+overflow: hidden;
+transition: .5s;
+}
+.menu:hover{
+    width: 260px;
+
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transform: .5s;
+}
+ul li a:hover, .active, .data-info .box:hover, td:hover{
+    background-color: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.log-out a{
+background-color: #a00;
+}
+ul li a i{
+    font-size: 30px;
+}
+.contant{
+    z-index: 10000;
+    width: 100%;
+    margin: 10px;
+    font-weight: bold;
+}
+.title-info{
+    background-color: #8B5A2B;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+ 
+}
+.hero{
+    background-image: url('sce.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: white;
+    padding: 30px;
+    text-align: left;
+    max-width: 300px;
+  }
+  
+.hero-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  
+.btn {
+    background-color: #8B5A2B;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    background-color: #6e3f1a;}
+
+.activities-section {
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 120px 20px;
+        margin-top: 80px;
+        border-top: 2px solid #a46628;
+}
+      
+.activities-section h1 {
+        color: #a46628;
+        font-size: 28px;
+        margin-bottom: 20px;
+}
+      
+      .logo-img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .egabion-text {
+        font-size: 18px;
+        color: #444;
+        margin: 5px 0;
+      }
+      
+      .our-page-text {
+        color: #a46628;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    
